@@ -4,6 +4,8 @@ def plus(a: int, b: int) -> int:
 def minus(a: int, b: int) -> int:
     return a - b
 
+def division(a: int, b: int) -> int:
+    return a/b
 def multiply(a: int, b: int) -> int:
     return a * b
 
@@ -18,5 +20,7 @@ if action == "+":
 if action == "-":
     print(minus(a, b))
 
+if action == "/":
+    print(division(a, b))
 if action  == "*":
     print(multiply(a, b))
